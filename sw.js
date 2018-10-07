@@ -19,7 +19,6 @@ self.addEventListener("install", function(event) {
         */
         return cache.addAll([
           'menubar/config.png',
-          'deneme.php',
           'menubar/home.png'
         ]);
       })
